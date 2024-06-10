@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel SL</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+01123456790" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">For Further Inquires :</p>
+
+            <p class="helpline-number">0760990879</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="img/logo.svg" alt="Tourly logo">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="img/logo-blue.svg" alt="Tourly logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>about us</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>packages</a>
+            </li>
+
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="btn btn-primary">Book Now</button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Journey to explore Sri Lanka</h2>
+
+          <p class="hero-text">
+            If you are planning to visit Sri Lanka for more than a week (which I would totally recommend), bear in mind that the perfect amount of days to explore the Island, would be between 13 and 15 days; also, depending on your vacation duration and budget, it is very common to combine this trip with an extension to The ...
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary">Learn more</button>
+
+            <button class="btn btn-secondary">Book now</button>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Search Destination*</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">Pax Number*</label>
+
+              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Checkin Date**</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Checkout Date*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Inquire now</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <p class="section-subtitle">Uncover place</p>
+
+          <h2 class="h2 section-title">Popular destination</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/ad/68/de/the-sri-dalada-maligawa.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Kandy</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">sri dalada maligawa</a>
+                  </h3>
+
+                  <p class="card-text">
+                    A world famous shrine where the left canine tooth of Lord Gautama Buddha is enshrined.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://i.pinimg.com/474x/e9/a5/a3/e9a5a3cea8ed8590fa665d8bbfa0e7c5.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Colombo
+                    </a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Galle Face Green</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Galle Face is ocean-side urban park, which stretches  along the coast, in the heart of Colombo, the financial and business capital of Sri Lanka.
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://static1.squarespace.com/static/6238cfc23dabf91e7bee164c/623ad485a78e6753a6746a0a/623ad564a78e6753a67485f6/1648022884836/DSCF4793-scaled.jpg?format=original" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Yala </a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Yala National Park</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Yala National Park is a huge area of forest, grassland and lagoons bordering the Indian Ocean, in southeast Sri Lanka.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://s3.envato.com/files/381522460/DR_090924_7079.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Dambulla </a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Sigiriya</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Sigiriya is famous for it's palace ruins on top of a massive 200 meter high rock surrounded by the remains of an extensive network of gardens, reservoirs and other structures.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://duqjpivknq39s.cloudfront.net/2019/02/800x750-1.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Anuradhapura
+                    </a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">sri maha bodhi </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Anuradhapura is one of the world's great ancient monuments; One of the longest continuously inhabited cultural and sacred centers in South Asia.
+
+                </div>
+
+              </div>
+            </li>
+
+            
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://static.saltinourhair.com/wp-content/uploads/2016/11/23155642/Things-to-do-Ella-Sri-Lanka-Nine-arch-bridge-train-2-648x810.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#"> Badulla
+                    </a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Ella</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Ella is a small town in Badulla District of Uva Province, Sri Lanka. Allows viewing across the southern plains of Sri Lanka.
+
+                </div>
+
+              </div>
+            </li>
+
+            
+
+          </ul>
+
+          <button class="btn btn-primary">More destintion</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Popular Packeges</p>
+
+          <h2 class="h2 section-title">Checkout Our Packeges</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/123777522.jpg?k=d68c52c58bdec8f871e51d89c80a0ac988559b40f89423842a52ea096e967d37&o=&hp=1" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title"> Ella - 98 Acres Resort & Spa</h3>
+
+                  <p class="card-text">
+                    Experience the beauty and serenity of Sri Lanka’s scenic hill country within the luxurious comforts of a boutique hotel par excellence. 98 Acres Resort and Spa is an elegant, chic hotel that stands on a scenic 98 acre tea estate, surrounded by a stunning landscape.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">ELLA </p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(25 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $750
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="https://media.cntraveller.in/wp-content/uploads/2017/09/Marriott3.jpg" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Villa Hiriketiya
+                  </h3>
+
+                  <p class="card-text">
+                    When visiting Dikwella, Villa Hiriketiya is a great choice to consider. The restaurant is the perfect spot for a bite to eat, and after having fun at the outdoor pool, you can unwind with a drink at the bar/lounge. A poolside bar, a terrace, and a garden are other highlights.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Matara</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(20 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $520
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/34687318.jpg?k=76cc5b29b46c9e95814271db622f8ce20030cc266d29818b451242f5c6e955c1&o=&hp=1" alt="" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Heritance Kandalama</h3>
+
+                  <p class="card-text">
+                    A still forest of dense green, floating whispers of bird song the lake shimmers in the distance, walls of rock cool to touch.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">7D/6N</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">pax: 10</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Sigiriya </p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(40 reviews)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    $660
+                    <span>/ per person</span>
+                  </p>
+
+                  <button class="btn btn-secondary">Book Now</button>
+
+                </div>
+
+              </div>
+            </li>
+          </li>
+
+          <li>
+            <div class="package-card">
+
+              <figure class="card-banner">
+                <img src="https://www.thegoldencrownhotel.com/images/site-specific/group/our-hotels/our-hotels-golden-ridge.jpg" alt="" loading="lazy">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3 card-title">
+                   Ferncliff Bungalow
+                </h3>
+
+                <p class="card-text">
+                  Hotel Oliphant Boutique Villa by Amaya in Nuwara Eliya offers a luxurious and relaxing escape. The staff is friendly and helpful, ensuring a warm welcome from the moment you arrive. 
+                </p>
+
+                <ul class="card-meta-list">
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <ion-icon name="time"></ion-icon>
+
+                      <p class="text">7D/6N</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <ion-icon name="people"></ion-icon>
+
+                      <p class="text">pax: 10</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <ion-icon name="location"></ion-icon>
+
+                      <p class="text">Nuwara Eliya </p>
+                    </div>
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <div class="card-price">
+
+                <div class="wrapper">
+
+                  <p class="reviews">(20 reviews)</p>
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                </div>
+
+                <p class="price">
+                  $520
+                  <span>/ per person</span>
+                </p>
+
+                <button class="btn btn-secondary">Book Now</button>
+
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="package-card">
+
+              <figure class="card-banner">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/176241241.jpg?k=fee09a22a7ceba0b125a151bf99833a36a62c203d26d58e07b1927384a949c65&o=&hp=1" alt="" loading="lazy">
+              </figure>
+
+              <div class="card-content">
+
+                <h3 class="h3 card-title">
+                 
+                         Aga Surf View</h3>
+
+                <p class="card-text">
+                  Aga Surf View is a set of newly built private cottages in front of the surfing beach of Unakuruwa, Tangalle. This is a fantastic beach vacation destination that offers almost all modern amenities for your accommodation.
+                </p>
+
+                <ul class="card-meta-list">
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <ion-icon name="time"></ion-icon>
+
+                      <p class="text">7D/6N</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <ion-icon name="people"></ion-icon>
+
+                      <p class="text">pax: 10</p>
+                    </div>
+                  </li>
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <ion-icon name="location"></ion-icon>
+
+                      <p class="text">Sigiriya </p>
+                    </div>
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <div class="card-price">
+
+                <div class="wrapper">
+
+                  <p class="reviews">(40 reviews)</p>
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                </div>
+
+                <p class="price">
+                  $660
+                  <span>/ per person</span>
+                </p>
+
+                <button class="btn btn-secondary">Book Now</button>
+
+              </div>
+
+            </div>
+          </li>
+          
+
+        
+
+          </ul>
+
+          <button class="btn btn-primary">View All Packages</button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">Photo Gallery</p>
+
+          <h2 class="h2 section-title">Photo's From Travellers</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="https://travelingceylon.com/uploads/gallery/20230524225806.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="img/gallery-2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="https://travelingceylon.com/uploads/gallery/20230524231221.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="img/gallery-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="https://travelingceylon.com/uploads/gallery/20230524231637.jpeg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Call To Action</p>
+
+            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+
+            <p class="section-text">
+              Contact us today to start planning your dream trip to Sri Lanka. Our friendly team is ready to assist you with any inquiries or questions you may have, ensuring a seamless and enjoyable travel experience.
+            </p>
+          </div>
+
+          <button class="btn btn-secondary">Contact Us !</button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="img/logo.svg" alt="Tourly logo">
+          </a>
+
+          <p class="footer-text">
+            Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia
+            at
+            perferendis, pretium, aenean aut ultrices.
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Contact Us</h4>
+
+          <p class="contact-text">
+            Feel free to contact and reach us !!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+01123456790" class="contact-link">+94-076 0990879</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info.tourly.com" class="contact-link">info.tourly.com</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>3146 Koontz, Kollupitiya, Sri Lanka</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Subscribe our newsletter for more update & news !!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Subscribe</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="">codewith-JJDKasthuri</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Term & Condition</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">FAQ</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
