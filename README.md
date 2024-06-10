@@ -17,4 +17,5 @@
 ![Screenshot 10](https://github.com/jjdkasthuri/Sl-Travel/assets/154047882/6793d06f-ec2e-4f99-806d-d067b6c7e114)
 
 
-### © 2024 codewith-JJDKasthuri. All rig!hts reserved
+### © 2024 codewith-JJDKasthuri. All rights reserved! 
+
